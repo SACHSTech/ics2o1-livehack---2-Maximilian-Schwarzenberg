@@ -1,7 +1,7 @@
 """
 -------------------------------------------------------------------------------
 Name: problem2.py
-Purpose: 
+Purpose: To check if the inputted sides form a triangle.
 Author: Schwarenberg.M
 Created: 23/02/2021
 ------------------------------------------------------------------------------
