@@ -18,11 +18,7 @@ side3 = int(input("Enter the length of the third side: "))
 print("---")
 
  # processing and output of data
-if side1 + side2 >= side3:
-  print("The figure is a triangle.")
-elif side1 + side3 >= side2:
-  print("The figure is a triangle.")
-elif side3 + side2 >= side1:
+if side1 + side2 >= side3 or side1 + side3 >= side2 or side3 + side2 >= side1:
   print("The figure is a triangle.")
 else:
   print("The figure is NOT a triangle.")
